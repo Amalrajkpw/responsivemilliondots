@@ -1,0 +1,405 @@
+
+
+.headerdiv{
+    box-shadow: 0px 0px 50px  rgb(170, 163, 163);
+    
+    width:100%
+    
+} 
+.logo{
+  height:60px;
+  width:150px;
+  margin-left:0px
+
+}
+.nav-item{
+  margin-left:0px
+}
+.whats:hover{
+  box-shadow:5px 5px 0px 0px;;
+  left:92%;
+  background:green;
+}
+.navbar-nav{
+  margin-left:00px
+}
+.nav-link{
+  display: inline-block;
+
+    position: relative;
+    color:#6c757d !important;
+    margin-left: 0px !important;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-link:hover{
+  color:#34b1b4 !important;
+}
+
+
+
+.nav-link:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  
+} 
+.button1{
+  padding:13px 50px;
+  background:white;
+  color:black;
+  text-align: center;
+  border-radius: 8px;
+  
+  
+  cursor: pointer;
+  font-size: small;
+  font-weight: bold;
+  border:solid 1px ;
+  
+}
+.whats{
+  position:fixed;
+  right:50px;
+  bottom: 150px;
+  
+}
+.button1:hover{
+  background-color: #0b5372;
+  color:white;
+}
+ .section1{
+  
+  background:url("https://milliondotsedu.com/images/Background.png");
+  background-color: #f3f3f388;;
+ }
+ .button2{
+  height:50px;
+  width:180px;
+  background:#0b5372;
+  margin-left: 0px;
+  margin-top: 70px;
+  border:none;
+  border-radius: 5px;
+  color:white;
+  font-weight: bold;
+
+
+}
+
+.button2:hover{
+  background:#34b1b4;
+  
+}
+.button3{
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  border:solid 1px;
+  background:transparent;
+  border-color: #0b5372;
+
+}
+.button3:hover{
+  color:aqua;
+  border-color: #20c997;
+}
+.section2{
+  
+width:100%;
+margin-top:2rem;
+
+}
+.section3{
+  background: #f3f3f388;;
+}
+.card{
+  padding-left: 0rem;
+box-shadow: 0px 0px 10px 10px rgb(227, 221, 221);
+}
+.container3{
+  display: flex;
+  justify-content: center;
+}
+.container4{
+  display:flex;
+  justify-content: center;
+  
+}
+.lisapphire{
+  text-decoration:none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left:30px;
+  color:#0b5372;
+  margin-top:30px
+}
+.feediv{
+  box-shadow: 0px 0px 10px 10px rgb(221, 215, 215);
+
+}
+.card-title{
+  font-size: 25px;
+  font-weight: bold;
+  color:#0b5372;
+  margin-left:0px;
+  
+}
+.card-text{
+  font-size: 17px;
+  font-weight: 400;
+  color:#20c997;
+  margin-top:10px;
+  margin-left:0px
+}
+.button4{
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  color: white;
+  background: #0b5372;
+  margin-right:auto;
+  margin-top: 30px;border-color:none;text-align: center;font-weight: bold;
+  cursor:pointer;
+}
+.master{
+  display:flex;
+  justify-content: center;
+}
+.step1{
+  display:flex;
+  justify-content: center;
+}
+.frequency{
+  display:flex;
+  justify-content: center;
+}
+li{
+  list-style:  none;
+}
+
+.box1{
+  height:auto;
+  width:380px;
+  
+}
+.wrapper{
+  display:flex;
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  overflow-x: auto;
+}
+.box1:hover{
+  box-shadow: 0px 0px 5px 10px rgb(222, 210, 210);
+}
+.footer{
+  background:url("https://milliondotsedu.com/images/Path1.png");
+  height:900px;
+  margin-top:180px;
+  display:flex;
+  justify-content: center;
+}
+.joindiv{
+  background:url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiBpZD0ic3ZnIiB2aWV3Qm94PSIwIDAgMTQ0MCA2MDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgY2xhc3M9InRyYW5zaXRpb24gZHVyYXRpb24tMzAwIGVhc2UtaW4tb3V0IGRlbGF5LTE1MCI+PHBhdGggZD0iTSAwLDYwMCBDIDAsNjAwIDAsMzAwIDAsMzAwIEMgOTkuMzUxMjgyMDUxMjgyMDMsMjQ5LjkyODIwNTEyODIwNTE1IDE5OC43MDI1NjQxMDI1NjQwNSwxOTkuODU2NDEwMjU2NDEwMjcgMjc1LDIwMSBDIDM1MS4yOTc0MzU4OTc0MzU5NSwyMDIuMTQzNTg5NzQzNTg5NzMgNDA0LjU0MTAyNTY0MTAyNTcsMjU0LjUwMjU2NDEwMjU2NDEyIDQ4NiwzMDcgQyA1NjcuNDU4OTc0MzU4OTc0MywzNTkuNDk3NDM1ODk3NDM1OSA2NzcuMTMzMzMzMzMzMzMzNCw0MTIuMTMzMzMzMzMzMzMzNCA3NTksNDA1IEMgODQwLjg2NjY2NjY2NjY2NjYsMzk3Ljg2NjY2NjY2NjY2NjYgODk0LjkyNTY0MTAyNTY0MTEsMzMwLjk2NDEwMjU2NDEwMjUgOTU4LDMyNiBDIDEwMjEuMDc0MzU4OTc0MzU4OSwzMjEuMDM1ODk3NDM1ODk3NSAxMDkzLjE2NDEwMjU2NDEwMjQsMzc4LjAxMDI1NjQxMDI1NjQzIDExNzUsMzg0IEMgMTI1Ni44MzU4OTc0MzU4OTc2LDM4OS45ODk3NDM1ODk3NDM1NyAxMzQ4LjQxNzk0ODcxNzk0ODgsMzQ0Ljk5NDg3MTc5NDg3MTc2IDE0NDAsMzAwIEMgMTQ0MCwzMDAgMTQ0MCw2MDAgMTQ0MCw2MDAgWiIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjAiIGZpbGw9IiMwNmM2NmNmZiIgY2xhc3M9InRyYW5zaXRpb24tYWxsIGR1cmF0aW9uLTMwMCBlYXNlLWluLW91dCBkZWxheS0xNTAiIHRyYW5zZm9ybT0icm90YXRlKC0xODAgNzIwIDMwMCkiPjwvcGF0aD48L3N2Zz4=");
+   display:flex;
+  justify-content: center;
+  background-color: #06fcb2;
+  height:300px;
+  width:auto;
+  border-radius: 30px;
+  padding:0px 170px;}
+
+.lastbutto{
+  height:60px;
+  width:230px;
+  background:white;
+  border-radius: 6px;
+  box-shadow: 2px 8px 2px -2px gray;
+  margin-top:0px;
+  margin-left:auto;
+  color:#1586b6;
+  font-weight: bold;
+  cursor: pointer;
+  font-size:15px;
+  border:solid 0px ;
+}
+.lastbutto:hover{
+  background:#0b5372;
+  color:white
+}
+@media screen and (max-width: 786px) {
+  
+  .wanttobemedia{
+    font-size: 30px !important;
+  }
+  .mediapfooter{
+    font-size:30px !important;
+
+  }
+  .joindiv{
+    padding:0px 0px
+  }
+  .firstpara{
+    font-size:15px !important
+  }
+  .tradersmedia{
+    font-size:40px!important
+  }
+  .becomemedia{
+    font-size:30px!important;
+  }
+  .becomeparamedia{
+    font-size: 15px!important;
+  }
+  .button2{
+    margin-top: 30px;
+  }
+  .lastbutto{
+    height:40px;
+    width:140px;
+    margin-top: 0px;
+  }
+  .card{
+    margin-left: 0!important;
+  }
+  .footer{
+    margin-top: 50px;
+  }
+  .fa-facebook {
+    margin-left: 40px;
+  }
+  .products{
+    height:150px;
+    width:150px;
+    margin-left: -30px;
+  }
+  .whatsappimg{
+    height:50px;
+    width:50px;
+  }
+
+}
+ 
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: white;
+
+  border-radius: 50% ;
+  height:10px;
+  width:10px
+}
+
+.fa-twitter {
+  
+  color: white;
+  border-radius: 50% ;
+  height:10px;
+  width:10px;
+  margin-left:20px;
+}
+
+.fa-google {
+  color: white;
+  border-radius: 50% ;
+  height:10px;
+  width:10px;
+  margin-left:20px;
+
+}
+
+.fa-linkedin {
+  
+  color: white;
+  border-radius: 50% ;
+  height:10px;
+  width:10px;
+  margin-left:20px;
+
+}
+
+.fa-youtube {
+  
+  color: white;
+  border-radius: 50% ;
+  height:10px;
+  width:10px;
+  margin-left:20px;
+
+}
+
+.fa-instagram {
+  
+  color: white;
+  border-radius: 50% ;
+  height:10px;
+  width:10px;
+  font-size:5px;
+  align-items:center;
+  margin-left:20px;
+
+}
+.social{
+  display:flex;
+  justify-content: center;
+}
+ 
+.products{
+  height:200px;
+  width:200px;
+  
+  margin-top: 30px;
+  display:flex;
+  justify-content: center;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(89, 247, 113);
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 54px;
+  
+}
+
+#myBtn:hover {
+  background-color: rgb(25, 242, 22);
+}
